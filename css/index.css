@@ -1,0 +1,88 @@
+body{
+	display: block;
+	margin: 0px;
+	background-image: url(../img/fondo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#contentMain {
+	background-image: -moz-linear-gradient(#f9f9f9, #f3f3f3);
+	background-image: -webkit-linear-gradient(#f9f9f9, #f3f3f3);
+	background-image: linear-gradient(#f9f9f9, #f3f3f3);
+	padding: 0px;
+	border-bottom-style: hidden;
+	border-bottom-width:5px;
+	border-bottom-color: black;
+}
+
+#myLogo{
+	width: 200px;
+	height:110px;
+	padding-left: 10px;
+}
+
+.textS{
+	margin-top: 2px;
+	text-align: center;
+	font-size: 24px;
+	margin-left: 1px;
+	color: #4D4D4D;
+	text-shadow: 0 2px 0 #fff;
+}
+
+#cTres{
+	padding-top:30px;
+}
+
+#s{
+	background-color:rgba(192,192,192,0.5);
+}
+
+#list{
+	list-style: none;
+}
+#push2{
+	margin-top: 3px;
+	width:50px;
+	height:50px;
+}
+
+#push{background-color: transparent;border-bottom-style: none;border-color: transparent;}
+
+footer{
+	/*background-image: -moz-linear-gradient(#f9f9f9, #f3f3f3);
+	background-image: -webkit-linear-gradient(#f9f9f9, #f3f3f3);
+	background-image: linear-gradient(#f9f9f9, #f3f3f3);*/
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height:auto;
+	color: transparent;
+	text-align: center;
+}
+
+/* FORMULARIOS PARA NUEVO POST */
+#dialogoverlay{
+  display: none;
+  opacity:none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background:rgba(0,0,10,0.2);
+  width: 100%;
+  z-index: 10;
+}
+#dialogbox{
+  display: none;
+  position: fixed;
+  background:#dbdcdd;
+  border-radius:7px; 
+  width:550px;
+  z-index: 10;
+}
+#dialogboxHijo{ background:#FFF; margin:8px; }
+#dialogboxhead{ background:#59a3b2; color:black;color:white; font-size:50px; padding:10px;}
+#dialogboxbody{ background:#f7f7f7; color:black; padding:20px;}
+#dialogboxfoot{ background: #f7f7f7; color:black; padding:10px; text-align:right; }
